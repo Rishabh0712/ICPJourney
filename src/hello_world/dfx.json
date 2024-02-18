@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "hello_world_backend": {
+      "candid": "src/hello_world_backend/hello_world_backend.did",
+      "package": "hello_world_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
