@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "threshold_ecdsa_backend": {
+      "candid": "src/threshold_ecdsa_backend/threshold_ecdsa_backend.did",
+      "package": "threshold_ecdsa_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

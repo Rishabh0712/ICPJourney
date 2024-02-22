@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/threshold_ecdsa_backend"
+]
+resolver = "2"
